@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Spectre | FTC #36363</title>
+  <meta name="description" content="Team Spectre, FTC Team #36363. Follow our robot build, meet the team, and see how to sponsor or donate.">
+  <meta name="theme-color" content="#161B2B">
+
+  <!-- Open Graph (edit image/url once the site is live) -->
+  <meta property="og:title" content="Team Spectre | FTC #36363">
+  <meta property="og:description" content="Team Spectre, FTC Team #36363. Follow our robot build, meet the team, and see how to sponsor or donate.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header" id="site-header">
+    <div class="nav-inner">
+      <div class="brand">
+        <a href="https://ftcscout.org/teams/36363" target="_blank" rel="noopener" aria-label="Team Spectre on FTC Scout">
+          <img class="brand-logo" src="assets/logo.svg" alt="Team Spectre logo" width="34" height="35">
+        </a>
+        <a href="index.html">
+          <span class="brand-text">
+            <span class="brand-name">SPECTRE</span>
+            <span class="brand-num">FTC&nbsp;#36363</span>
+          </span>
+        </a>
+      </div>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="about.html" data-nav>About</a></li>
+          <li><a href="team.html" data-nav>Team</a></li>
+          <li><a href="robot.html" data-nav>Robot</a></li>
+          <li><a href="sponsors.html" data-nav>Sponsors</a></li>
+          <li><a href="schedule.html" data-nav>Schedule</a></li>
+          <li><a href="gallery.html" data-nav>Gallery</a></li>
+          <li><a href="contact.html" data-nav>Contact</a></li>
+          <li><a href="donate.html" data-nav class="nav-cta">Donate</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+      <ul>
+        <li><a href="about.html" data-nav>About</a></li>
+        <li><a href="team.html" data-nav>Team</a></li>
+        <li><a href="robot.html" data-nav>Robot</a></li>
+        <li><a href="sponsors.html" data-nav>Sponsors</a></li>
+        <li><a href="schedule.html" data-nav>Schedule</a></li>
+        <li><a href="gallery.html" data-nav>Gallery</a></li>
+        <li><a href="contact.html" data-nav>Contact</a></li>
+        <li><a href="donate.html" data-nav class="mobile-donate">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="home">
+      <div class="circuit-field" aria-hidden="true">
+        <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="circuit" width="120" height="120" patternUnits="userSpaceOnUse">
+              <path d="M0 60 H40 V20 H90" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M60 120 V80 H120" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M90 0 V30" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="40" cy="20" r="3" fill="currentColor"/>
+              <circle cx="90" cy="30" r="3" fill="currentColor"/>
+              <circle cx="60" cy="80" r="3" fill="currentColor"/>
+            </pattern>
+          </defs>
+          <rect width="800" height="600" fill="url(#circuit)"/>
+        </svg>
+      </div>
+
+      <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <p class="eyebrow mono hero-in hero-in-1">FIRST TECH CHALLENGE &middot; TEAM #36363</p>
+        <h1 class="hero-title">
+          <span class="line-wrap"><span class="line hero-in hero-in-2">TEAM</span></span>
+          <span class="line-wrap"><span class="line hero-in hero-in-3 is-accent">SPECTRE</span></span>
+        </h1>
+        <p class="hero-tagline hero-in hero-in-4">Leave your shadow behind.</p>
+        <div class="hero-actions hero-in hero-in-5">
+          <a href="robot.html" class="btn btn-primary" data-magnetic>See Offseason Highlights</a>
+          <a href="donate.html" class="btn btn-ghost" data-magnetic>Donate</a>
+        </div>
+      </div>
+
+      <div class="hero-mark hero-mark-in" aria-hidden="true">
+        <img src="assets/logo.svg" alt="" width="280" height="290">
+      </div>
+
+      <a class="scroll-cue" href="about.html" aria-label="Go to About">
+        <span></span>
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="assets/logo.svg" alt="" width="22" height="23">
+      <p>Team Spectre &middot; FTC #36363 &middot; &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

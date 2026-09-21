@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Team Spectre</title>
+  <meta name="description" content="Donate to FTC Team Spectre #36363 and help fund parts, travel, and STEM outreach.">
+  <meta name="theme-color" content="#161B2B">
+
+  <!-- Open Graph (edit image/url once the site is live) -->
+  <meta property="og:title" content="Donate | Team Spectre">
+  <meta property="og:description" content="Donate to FTC Team Spectre #36363 and help fund parts, travel, and STEM outreach.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header" id="site-header">
+    <div class="nav-inner">
+      <div class="brand">
+        <a href="https://ftcscout.org/teams/36363" target="_blank" rel="noopener" aria-label="Team Spectre on FTC Scout">
+          <img class="brand-logo" src="assets/logo.svg" alt="Team Spectre logo" width="34" height="35">
+        </a>
+        <a href="index.html">
+          <span class="brand-text">
+            <span class="brand-name">SPECTRE</span>
+            <span class="brand-num">FTC&nbsp;#36363</span>
+          </span>
+        </a>
+      </div>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="about.html" data-nav>About</a></li>
+          <li><a href="team.html" data-nav>Team</a></li>
+          <li><a href="robot.html" data-nav>Robot</a></li>
+          <li><a href="sponsors.html" data-nav>Sponsors</a></li>
+          <li><a href="schedule.html" data-nav>Schedule</a></li>
+          <li><a href="gallery.html" data-nav>Gallery</a></li>
+          <li><a href="contact.html" data-nav>Contact</a></li>
+          <li><a href="donate.html" data-nav class="nav-cta">Donate</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+      <ul>
+        <li><a href="about.html" data-nav>About</a></li>
+        <li><a href="team.html" data-nav>Team</a></li>
+        <li><a href="robot.html" data-nav>Robot</a></li>
+        <li><a href="sponsors.html" data-nav>Sponsors</a></li>
+        <li><a href="schedule.html" data-nav>Schedule</a></li>
+        <li><a href="gallery.html" data-nav>Gallery</a></li>
+        <li><a href="contact.html" data-nav>Contact</a></li>
+        <li><a href="donate.html" data-nav class="mobile-donate">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="section section-alt" id="donate">
+      <div class="section-inner">
+        <div class="section-head">
+          <h2>Donate</h2>
+        </div>
+
+        <div class="donate-grid">
+          <div class="donate-copy">
+            <p class="lede">We're not a school-funded team, so our resources are limited. Every bit helps us not only build a better robot, but also educate the next generation about STEM.</p>
+            <a href="https://hcb.hackclub.com/donations/start/spectre" class="btn btn-primary" data-magnetic target="_blank" rel="noopener">Donate Now</a>
+            <p class="donate-note">[Note whether gifts are tax-deductible for your team, e.g. through a school PTA or booster club acting as fiscal sponsor. Remove this line if not applicable.]</p>
+          </div>
+
+          <ul class="donate-tiers mono">
+            <li><span class="donate-amount">$25</span><span class="donate-impact">Gets us specialized tools or belts that improve our shooting accuracy by up to 15%.</span></li>
+            <li><span class="donate-amount">$50</span><span class="donate-impact">Specialized stock and equipment that makes our robot more durable.</span></li>
+            <li><span class="donate-amount">$100</span><span class="donate-impact">Helps cover travel fees to competitions and lets us run STEM education camps.</span></li>
+            <li><span class="donate-amount">Custom</span><span class="donate-impact">Every amount helps us get to the next tournament.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <img src="assets/logo.svg" alt="" width="22" height="23">
+      <p>Team Spectre &middot; FTC #36363 &middot; &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
